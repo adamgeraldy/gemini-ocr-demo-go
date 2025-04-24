@@ -24,6 +24,7 @@ func main() {
 
 	router := gin.Default()
 
+	// Change CORS settings to your domains instead of allowing all origins (*)
 	router.Use(func(c *gin.Context) {
 		c.Writer.Header().Set("Access-Control-Allow-Origin", "*")
 		c.Writer.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE")
