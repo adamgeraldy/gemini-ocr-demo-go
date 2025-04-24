@@ -19,10 +19,10 @@ This project is a Go backend service that uses Google's Gemini model (defaults t
 
 ## Prerequisites
 
-*   Go (version 1.18 or later recommended)
+*   Go (version 1.23 or later recommended)
 *   Docker (optional, for containerized deployment)
 *   Google Cloud Project with Vertex AI API enabled.
-*   Service Account credentials for accessing Vertex AI (or configured Application Default Credentials).
+*   Configured Application Default Credentials for Google Cloud.
 
 ## Setup
 
